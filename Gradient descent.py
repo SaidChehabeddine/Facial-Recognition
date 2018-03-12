@@ -26,6 +26,8 @@ def rgb2gray(rgb):
     Arguments:
     rgb -- an RGB image, represented as a numpy array of size n x m x 3. The
     range of the values is 0..255
+    
+    This function was provided by Michael Guerzhoy
     '''
     
     r, g, b = rgb[:,:,0], rgb[:,:,1], rgb[:,:,2]
